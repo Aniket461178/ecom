@@ -9,7 +9,7 @@ const initialState = {
 export const cartSlice = createSlice({
   name: 'managecart',
   initialState,
-  git init
+
   reducers: {
     addtosave: (state, action) => {
       let modify = action.payload
